@@ -5,22 +5,20 @@ public class App {
 
         System.out.println("---------------FOR----------------");
         for(int i = 0; i < 10; i++){
-            numero = numero + 1;
-            System.out.println("valou numero: "+ numero);
+            numero++;
+            System.out.println("Valou de numero: "+ numero);
         }
-
-        System.out.println("---------------WHILE----------------");
-
+        
+        System.out.println("---------------WHILE--------------");
         while(numero > 0){
-            numero = numero - 1;
-            System.out.println("valou numero: "+ numero);
+            numero--;
+            System.out.println("Valou de numero: "+ numero);
         }
 
-        System.out.println("---------------DO WHILE----------------");
-
+        System.out.println("---------------DO WHILE-----------");
         do{
-            numero = numero + 1;
-            System.out.println("valou numero: "+ numero);
+            numero++;
+            System.out.println("Valou de numero: "+ numero);
         }while(numero < 10);
 
     }
